@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #1F66CC;
+  --cards: 3;
+  --cardHeight: 14.5vw;
+	--card-margin: 3vw;
+	--card-top-offset: 1em;
+	--outline-width: 0px;
+	--cardHeightMobile: 485px;
+	--cardHeightTablet: 310px;
+}

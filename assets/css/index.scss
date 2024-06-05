@@ -1,0 +1,41 @@
+@import './base.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+::-moz-selection { /* Code for Firefox */
+	color: #FFFFFF;
+	background: var(--primary-color) !important;
+}
+
+::selection {
+	color: #FFFFFF;
+	background: var(--primary-color) !important;
+}
+
+body {
+	font-family: 'SVN-Gilroy', sans-serif;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.secondary-color {
+	color: var(--secondary-color);
+}
+
+.logo-large {
+	width: 114px;
+	height: 68px;
+}
+
+.logo-small {
+	width: 82px;
+	height: 49px;
+}
